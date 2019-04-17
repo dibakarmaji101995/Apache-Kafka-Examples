@@ -1,0 +1,14 @@
+server: 
+  port: 2323
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+
+app:
+  topic: cust
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    com.nt.kafka: INFO
